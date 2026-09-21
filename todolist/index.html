@@ -1,49 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   
-       
+
+
     <div class="container">
-       <i class="fa-solid  fa-clipboard-list"></i>
+        <i class="fa-solid  fa-clipboard-list"></i>
         <h1>My To-Do list</h1>
-       
-       <div class="addTask">
-        <input type="text" placeholder="Add a new task" class="inputTask" id="inputTask">
-        <button class="btn-Task" onclick="btnTask()">Add</button>
-         <div class="search-task">
-             <i class="fa-solid fa-magnifying-glass"></i>
-            <input type="text" placeholder="Search Task...." id="searchTask">
+
+        <div class="addTask">
+            <input type="text" placeholder="Add a new task" class="inputTask" id="inputTask">
+            <button class="btn-Task" onclick="btnTask()">Add</button>
+            <div class="search-task">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search Task...." id="searchTask">
+            </div>
         </div>
-    </div>
-    <div class="list">
-        <ul id="Task-list"></ul>
-    </div>
-   
-    <div class="task-counter">
-       <div class="task">
-        <p class="p1-task">Total Task</p>
-        <p id="total-task">0</p>
-       </div>
-       <div class="task">
-        <p class="p2-task">Completed Task</p>
-        <p id="completed-task">0</p>
-       </div>
-<div class="task">
-    <p class="p3-task">Pending Task</p>
-    <p id="pending-task">0</p>
-</div>
-    </div>
-     <button class="reset-btn" onclick="clearAll()">Clear All</button>
+        <div class="list">
+            <ul id="Task-list"></ul>
+        </div>
+
+        <div class="task-counter">
+            <div class="task">
+                <p class="p1-task">Total Task</p>
+                <p id="total-task">0</p>
+            </div>
+            <div class="task">
+                <p class="p2-task">Completed Task</p>
+                <p id="completed-task">0</p>
+            </div>
+            <div class="task">
+                <p class="p3-task">Pending Task</p>
+                <p id="pending-task">0</p>
+            </div>
+        </div>
+        <button class="reset-btn" onclick="clearAll()">Clear All</button>
     </div>
 
 
-   <script src="app.js"></script> 
+    <script src="app.js"></script>
 </body>
+
 </html>
