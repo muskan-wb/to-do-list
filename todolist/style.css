@@ -118,7 +118,6 @@ span {
 .reset-btn {
     background-color: #3F4F63;
     border: 2px solid #DC2626;
-    /* Red border */
     color: white;
     height: 2.3rem;
     width: 28rem;
@@ -182,7 +181,6 @@ span {
 .search-task {
     position: relative;
     width: 28.6rem;
-    /* apne hisaab se */
     margin: 1rem 8rem 0 0;
 }
 
@@ -204,13 +202,14 @@ span {
     color: gray;
     font-size: 15px;
 }
-
+/* tablet / ipad  */
 @media only screen and (max-width:1024px) {
     .container {
         margin: 5rem 5rem 0 0;
     }
 }
 
+/* mobile  */
 @media only screen and (max-width:480px) {
     .container {
         width: 22rem;
